@@ -1509,7 +1509,7 @@ header.fixedTopMenu .topWrap .menuTopWrap.topMenuStyleLine > ul#mainmenu > li > 
 .slider_img_12 {background-image:url(../images/1150x647.png);width:100%;}
 .slider_img_13 {background-image:url(../images/1150x647.png);width:100%;}
 
-.theme_skin_kidscare .sc_title_icon.sc_size_huge {width: 137px;}
+.theme_skin_kidscare .sc_title_icon.sc_size_huge {width: 350px;}
 .theme_skin_kidscare h6.sc_title.sc_title_iconed {line-height: 19px; letter-spacing: -0.5px;}
 .sc_title_icon.sc_size_large:before {
     font-size: 50px;
@@ -2266,7 +2266,7 @@ font-size:16px;
 	line-height:40px;
 	font-weight:400;
 	font-family:"Fredoka One",cursive;
-	color:rgb(3,55,97);
+	color:rgb(255, 255, 255);
 	text-decoration:none;
 	padding:0px;
 	background-color:transparent;
@@ -2279,7 +2279,7 @@ font-size:16px;
 	line-height:23px;
 	font-weight:600;
 	font-family:Ubuntu,sans-serif;
-	color:rgb(3,55,97);
+	color:rgb(255, 255, 255);
 	text-decoration:none;
 	text-shadow:none;
 	background-color:transparent;
@@ -2332,8 +2332,8 @@ font-size:16px;
 /*.mainslider_1 .rev_slider_wrapper {margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:633px;}*/
 /*.mainslider_1 .rev_slider {display:none;max-height:633px;height:633px;}*/
 .mainslider_1 li:nth-child(1){background-image:url(../images/fondo\ ver.jpg); background-repeat: no-repeat; background-size: cover;}
-.mainslider_1 li:nth-child(2){background-color:#fdd011;}
-.mainslider_1 li:nth-child(3){background-color:#d0e8a9;}
+.mainslider_1 li:nth-child(2){background-image:url(../images/FondoSpotify.png); background-repeat: no-repeat; background-size: cover;}
+.mainslider_1 li:nth-child(3){background-image:url(../images/FondoIncognita.png); background-repeat: no-repeat; background-size: cover;}
 
 
 /* Boxed view */
@@ -2374,7 +2374,7 @@ p.pd-sm {padding-bottom: 10px;}
 
 
 /* parallax */
-.parallax_image_1 {background-image:url(../images/1920x900.png); background-position:50% 50%;}
+.parallax_image_1 {background-image:url(../images/FondoAbout.png); background-position:50% 50%;}
 .parallax_image_1 .sc_content {margin-top:90px; margin-bottom:90px;}
 
 .parallax_image_2 {background-image:url(../images/1920x900.png); background-position:50% 50%;}
