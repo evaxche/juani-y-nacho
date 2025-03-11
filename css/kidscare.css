@@ -2328,10 +2328,10 @@ font-size:16px;
 }
 
 
-
+/* Fondos */
 /*.mainslider_1 .rev_slider_wrapper {margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:633px;}*/
 /*.mainslider_1 .rev_slider {display:none;max-height:633px;height:633px;}*/
-.mainslider_1 li:nth-child(1){background-color:#86d9d2;}
+.mainslider_1 li:nth-child(1){background-image:url(../images/fondo\ ver.jpg); background-repeat: no-repeat; background-size: cover;}
 .mainslider_1 li:nth-child(2){background-color:#fdd011;}
 .mainslider_1 li:nth-child(3){background-color:#d0e8a9;}
 
