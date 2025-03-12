@@ -1221,7 +1221,7 @@ header.fixedTopMenu .topWrap .menuTopWrap.topMenuStyleLine > ul#mainmenu > li > 
 .footerWrap.footerStyleDark {}
 
 /*.theme_skin_kidscare .contactFooterWrap.footerStyleLight {background: #ea624c url("../images/object_1.png") no-repeat 50% 100%; color: #ffffff;}*/
-.theme_skin_kidscare .contactFooterWrap.footerStyleLight {background: #ea624c; color: #ffffff;}
+.theme_skin_kidscare .contactFooterWrap.footerStyleLight {background: #471659; color: #ffffff;}
 /*.theme_skin_kidscare .contactFooterWrap.footerStyleDark {background: #143A43 url("../images/object_1.png") no-repeat 50% 100%; color: #ffffff;}*/
 .theme_skin_kidscare .contactFooterWrap.footerStyleDark {background: #143A43; color: #ffffff;}
 .contactFooterWrap.footerStyleLight .contactAddress {color: #ffffff;}
@@ -2195,16 +2195,36 @@ div.facebook .pp_nav p {line-height: 1;}
 }
 
 .tp-caption a{
-	color:#ff7302;
+	color:#ffffff;
 	text-shadow:none;
+    font-size: 40px;
+    margin-right: 10px;
 	-webkit-transition:all 0.2s ease-out;
 	-moz-transition:all 0.2s ease-out;
 	-o-transition:all 0.2s ease-out;
 	-ms-transition:all 0.2s ease-out;
 }
 .tp-caption a:hover{
-	color:#ffa902;
+	color:#9900ff;
 }
+
+/* Colores de las redes sociales */
+.social-icon.fa-instagram {
+    color: #E4405F;
+}
+
+.social-icon.fa-youtube {
+    color: #FF0000 !important;
+}
+
+.social-icon.fa-spotify {
+    color: #1DB954;
+}
+
+.social-icon.fa-tiktok {
+    color: #69C9D0;
+}
+
 .tp-button.order{
 	font-weight:700;
 	font-size:16px;
@@ -2331,7 +2351,7 @@ font-size:16px;
 /* Fondos */
 /*.mainslider_1 .rev_slider_wrapper {margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:633px;}*/
 /*.mainslider_1 .rev_slider {display:none;max-height:633px;height:633px;}*/
-.mainslider_1 li:nth-child(1){background-image:url(../images/fondo\ ver.jpg); background-repeat: no-repeat; background-size: cover;}
+.mainslider_1 li:nth-child(1){background-image:url(../images/fondo\ ver3.png); background-repeat: no-repeat; background-size: cover;}
 .mainslider_1 li:nth-child(2){background-image:url(../images/FondoSpotify.png); background-repeat: no-repeat; background-size: cover;}
 .mainslider_1 li:nth-child(3){background-image:url(../images/FondoIncognita.png); background-repeat: no-repeat; background-size: cover;}
 
