@@ -834,21 +834,57 @@
 						<section>
 							<div class="logo">
 								<a href="index.html">
-									<img src="images/201x45.png" alt="">
+									<h2 class="sc_title sc_title_regular aligncenter">Contactanos</h2>
+									<img src="images/logo2.png" alt="" width="128" height="128">
 								</a>
 							</div>
 							<div class="contactAddress">
-								<address class="addressRight">
+								<!--<address class="addressRight">
 									Phone: 1.800.123.4567<br>
 								Fax: 1.800.123.4566 </address>
 								<address class="addressLeft">
 									San Francisco, CA 94102, US<br>
-								1234, Some Str. </address>
-							</div>
+								1234, Some Str. </address>-->
+
+								<form id="contact-form">
+									<input type="text" name="name" placeholder="Nombre" required><br>
+									<input type="email" name="email" placeholder="Correo" required><br>
+									<input type="text" id="subject" name="subject" placeholder="Asunto" required><br>
+									<textarea name="message" placeholder="Mensaje" required></textarea><br>
+									<button type="submit">Enviar</button>
+								</form>
+							
+							<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+							<script>
+								(function() {
+									emailjs.init("1jqkOHzrTLkPk42K2"); // Public Key
+								})();
+							
+								document.getElementById("contact-form").addEventListener("submit", function(event) {
+									event.preventDefault();
+							
+									// Crear objeto con los datos, usando los nombres esperados por EmailJS
+									let formData = {
+										name: this.name.value,
+										email: this.email.value,
+										subject: this.title.value,
+										message: this.message.value
+									};
+							
+									emailjs.send("service_ys7owci", "template_ujhmksl", formData)
+									.then(() => {
+										alert("Correo enviado con éxito");
+										this.reset(); // Limpia el formulario después de enviarlo
+									})
+									.catch((error) => alert("Error al enviar: " + JSON.stringify(error)));
+								});
+							</script>
+							
 							<div class="contactTtextLine">
 								¿Interesado en saber más? Contáctanos en 
 								<a href="mailto:juaniynacho.ok@gmail.com" style="color: #1DB954; text-decoration: none;">juaniynacho.ok@gmail.com</a>.
 							</div>
+							
 							<!--<div class="contactShare">
 								<ul>
 									<li>

@@ -4909,3 +4909,45 @@ Animation
     animation-name: pulse;
 }
 
+
+.contact-form {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ddd;
+}
+.contact-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: #333;
+    font-size: 30px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+.social-links a:hover {
+    color: #FF6347; /* Cambia al pasar el mouse */
+}
