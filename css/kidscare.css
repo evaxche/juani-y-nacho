@@ -1262,7 +1262,8 @@ header.fixedTopMenu .topWrap .menuTopWrap.topMenuStyleLine > ul#mainmenu > li > 
 .footerStyleDark .footerWidget .widgetWrap .title { color: #ffffff; }
 
 .copyWrap { background-color: #ffffff; color: #a5a5a5; }
-.copyWrap a { color: rgba(234, 98, 76, 0.60); }
+.copyWrap a { color: #1bb4b9; }
+/*.copyWrap a { color: rgba(234, 98, 76, 0.60); }*/
 .copyWrap a:hover { color: #ea624c; }
 
 .widget_advert strong {font-weight: 500;}
