@@ -863,18 +863,18 @@
 								document.getElementById("contact-form").addEventListener("submit", function(event) {
 									event.preventDefault();
 							
-									// Crear objeto con los datos, usando los nombres esperados por EmailJS
+									//  objeto con los datos
 									let formData = {
 										name: this.name.value,
-										email: this.email.value,
-										subject: this.title.value,
-										message: this.message.value
+										message: this.message.value,
+										title: this.subject.value,
+										email: this.email.value	
 									};
 							
 									emailjs.send("service_ys7owci", "template_ujhmksl", formData)
 									.then(() => {
 										alert("Correo enviado con éxito");
-										this.reset(); // Limpia el formulario después de enviarlo
+										this.reset(); // Limpia el formulario
 									})
 									.catch((error) => alert("Error al enviar: " + JSON.stringify(error)));
 								});
