@@ -1,5 +1,18 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:300,300italic,400,400italic,500,500italic,700,700italic);
 @import url(http://fonts.googleapis.com/css?family=Fredoka+One);
+@font-face {
+    font-family: "Dosis";
+    src: url(fonts/Dosis-ExtraBold.otf);
+}
+@font-face {
+    font-family: "Wobblezz";
+    src: url(fonts/Wobblezz-BF64c0bd4ad7637.otf);
+}
+
+@font-face {
+    font-family: "Papernotes";
+    src: url(fonts/Papernotes\ Bold.ttf);
+}
 
 /* Main skin for the theme
 ------------------------------------------------------------------------- */
@@ -875,8 +888,8 @@ pre.code,
 
 
 /* Fonts */
-body {font-family: 'Ubuntu', sans-serif; font-size: 16px; line-height:21px; font-weight:300; color: #969899 /*#808080*/;}
-textarea { font-family: 'Ubuntu', sans-serif; color: #191d1e; }
+body {font-family: 'Papernotes', sans-serif; font-size: 16px; line-height:21px; font-weight:300; color: #969899 /*#808080*/;}
+textarea { font-family: 'Papernotes', sans-serif; color: #191d1e; }
 .logo_text { font-family: 'Fredoka One', cursive; font-weight:700; }
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Fredoka One', cursive; font-weight:400; }
@@ -903,7 +916,7 @@ b, strong { font-weight:700; }
 .font_ubuntu,
 .sc_title.sc_title_iconed,
 .woocommerce ul.products li.product h3
-/*font_ubuntu*/{font-family: 'Ubuntu', sans-serif; font-weight: 500; letter-spacing: -0.35px;}
+/*font_ubuntu*/{font-family: 'Dosis', sans-serif; font-weight: 500; letter-spacing: -0.35px;}
 
 .title_type_1 { font-size: 40px; line-height: 55px; }
 .title_type_2 { font-size: 24px; line-height: 36px; }
