@@ -504,55 +504,55 @@
 										  </section>
 										  
 										  <script>
-											const videoUrls = [
-											  "https://youtu.be/T2d25-CAIpI?si=LHJyD3xgZiEZA2uU",
-											  "https://youtu.be/u--HdM7wfbM?si=huS0-yS37KCE7PbM",
-											  "https://youtu.be/U5hvc2E8T-E?si=B-6DVujmP9YFErvC",
-											  "https://youtu.be/TQVBEgcQkQ0?si=pvFAry-1lt_TxPgi",
-											  "https://youtu.be/q5-LAaf0GIA?si=v7bL55k3ORZ0k27V",
-											  "https://youtu.be/yNTtKyRNKv8?si=vwNAVFmhBFRyc67k"
-											];
+											fetch("https://api.sheetbest.com/sheets/8b14f560-716e-4dd3-af90-3045fdf9f10b")
+											  .then(response => response.json())
+											  .then(data => {
+												// Extraer las URLs de la columna "URL" de la hoja
+												const videoUrls = data.map(row => row.URL).filter(url => url);
+										  
+												// Llamar a la función para cargar los videos pasando el array videoUrls
+												loadVideos(videoUrls);
+											  })
+											  .catch(error => console.error("Error cargando los videos:", error));
 										  
 											function extractVideoId(url) {
-												// URL larga
-												const longUrlMatch = url.match(/(?:https?:\/\/(?:www\.)?youtube\.com\/watch\?v=)([a-zA-Z0-9_-]+)/);
-												if (longUrlMatch) {
+											  // URL larga
+											  const longUrlMatch = url.match(/(?:https?:\/\/(?:www\.)?youtube\.com\/watch\?v=)([a-zA-Z0-9_-]+)/);
+											  if (longUrlMatch) {
 												return longUrlMatch[1];
-												}
-												
-												// URL corta
-												const shortUrlMatch = url.match(/(?:https?:\/\/(?:www\.)?youtu\.be\/)([a-zA-Z0-9_-]+)/);
-												if (shortUrlMatch) {
+											  }
+											  
+											  // URL corta
+											  const shortUrlMatch = url.match(/(?:https?:\/\/(?:www\.)?youtu\.be\/)([a-zA-Z0-9_-]+)/);
+											  if (shortUrlMatch) {
 												return shortUrlMatch[1];
-												}
-
-												return null; // Si no encuentra un ID válido
+											  }
+										  
+											  return null; // Si no encuentra un ID válido
 											}
-											
-											function loadVideos() {
+										  
+											function loadVideos(videoUrls) {
 											  let videoGrid = document.getElementById("videoGrid");
 											  videoGrid.innerHTML = "";
 										  
 											  videoUrls.forEach(url => {
 												const videoId = extractVideoId(url);
 												if (videoId) {
-													let thumbnail = `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
-													let videoItem = document.createElement("div");
-													videoItem.classList.add("video-item");
-													videoItem.innerHTML = `
+												  let thumbnail = `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
+												  let videoItem = document.createElement("div");
+												  videoItem.classList.add("video-item");
+												  videoItem.innerHTML = `
 													<a href="${url}" target="_blank">
-														<img src="${thumbnail}" alt="Video Thumbnail" onerror="this.src='https://www.youtube.com/img/desktop/yt_1200.png';">
+													  <img src="${thumbnail}" alt="Video Thumbnail" onerror="this.src='https://www.youtube.com/img/desktop/yt_1200.png';">
 													</a>
-													`;
-												videoGrid.appendChild(videoItem);
-											} else {
-												console.error('No valid video ID found in URL:', url);
+												  `;
+												  videoGrid.appendChild(videoItem);
+												} else {
+												  console.error('No valid video ID found in URL:', url);
 												}
 											  });
 											}
-										  
-											loadVideos();
-										  </script>
+										  </script>										  
 										  
 									<!--</section>
 
