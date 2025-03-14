@@ -4979,5 +4979,42 @@ Animation
     text-decoration: none;
 }
 .social-links a:hover {
-    color: #FF6347; /* Cambia al pasar el mouse */
+    color: #FF6347;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.video-item {
+    text-align: center;
+    background: #471659;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    aspect-ratio: 16 / 9;
+}
+
+.video-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.video-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+    object-fit: cover;
+}
+
+.video-item img:hover {
+    opacity: 0.8;
 }
