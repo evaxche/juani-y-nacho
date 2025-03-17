@@ -4909,37 +4909,46 @@ Animation
     animation-name: pulse;
 }
 
+/* Contact */
 
 .contact-form {
-    width: 100%;
-    max-width: 600px;
+    width: 90%; /* Ocupar el 90% de la pantalla en mobile */
+    max-width: 500px; /* Máximo ancho en pantallas grandes */
     margin: 20px auto;
-    padding: 30px;
+    padding: 20px;
     background-color: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+/* Estilo de los inputs y textarea */
 .contact-form input, .contact-form textarea {
     width: 100%;
     padding: 12px;
-    margin: 8px 0;
+    margin: 6px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
     box-sizing: border-box;
 }
 
-.contact-form input[type="text"], .contact-form input[type="email"] {
+/* Ajustes para inputs */
+.contact-form input[type="text"], 
+.contact-form input[type="email"] {
     height: 40px;
 }
 
+/* Ajustes para el textarea */
 .contact-form textarea {
     min-height: 120px;
     resize: vertical;
 }
 
+/* Botón de enviar */
 .contact-form button {
     background-color: #4CAF50;
     color: white;
@@ -4956,17 +4965,43 @@ Animation
     background-color: #45a049;
 }
 
-.contact-form input:focus, .contact-form textarea:focus {
+/* Efectos al enfocar los campos */
+.contact-form input:focus, 
+.contact-form textarea:focus {
     border-color: #4CAF50;
     outline: none;
     box-shadow: 0 0 5px rgba(72, 182, 57, 0.4);
 }
 
-.contact-form input::placeholder, .contact-form textarea::placeholder {
+/* Placeholder estilo */
+.contact-form input::placeholder, 
+.contact-form textarea::placeholder {
     color: #888;
     font-style: italic;
 }
 
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+    .contact-form {
+        width: 80%; /* Reducir en pantallas pequeñas */
+        padding: 15px;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+
+    .contact-form input, 
+    .contact-form textarea {
+        font-size: 14px; /* texto en mobile */
+    }
+
+    .contact-form button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+
+/* Social */
 
 .social-links {
     margin-top: 20px;
@@ -4992,6 +5027,8 @@ Animation
     max-width: 1200px;
     margin: 0 auto; 
 }
+
+/* Youtube */
 
 .video-item {
     text-align: center;
