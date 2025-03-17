@@ -5020,3 +5020,20 @@ Animation
 .video-item img:hover {
     opacity: 0.8;
 }
+
+/* Centrar el contenedor de Spotify */
+.spotify-widget-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* Hacer el iframe responsivo */
+  .spotify-widget-container iframe {
+    width: 100%;
+    max-width: 600px; /* Limita el ancho máximo del iframe */
+    height: 352px; /* Mantén la altura que deseas */
+    border-radius: 12px;
+  }
+  
