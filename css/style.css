@@ -5029,11 +5029,55 @@ Animation
     width: 100%;
   }
   
-  /* Hacer el iframe responsivo */
+  /* frame responsivo */
   .spotify-widget-container iframe {
     width: 100%;
-    max-width: 800px; /* Limita el ancho máximo del iframe */
-    height: 500px; /* Mantén la altura que deseas */
+    max-width: 800px; /* Limita máximo del iframe */
+    height: 500px;
     border-radius: 12px;
   }
-  
+
+
+
+  .responsive-image {
+      width: 60%;
+      height: auto;
+      display: block;
+  }
+
+  .columnsWrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+
+  .columns1_2 {
+      flex: 1;
+      margin: 10px;
+  }
+
+  /* Estilo adicional para mejorar el comportamiento en pantallas pequeñas */
+  @media (max-width: 768px) {
+      .columnsWrap {
+          flex-direction: column;
+          align-items: center;
+      }
+
+      .columns1_2 {
+          width: 100%;
+      }
+  }
+
+/* Botones YT Spotify */
+  .button-container {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+
+.button-image {
+    width: 90px; 
+    height: auto;
+}

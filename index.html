@@ -58,8 +58,8 @@
 							<nav role="navigation" class="menuTopWrap topMenuStyleLine">
 								<ul id="mainmenu" class="">
 									<li class="menu-item current-menu-ancestor menu-item-has-children">
-										<a href="index.html">INICIO</a>
-										<ul class="sub-menu">
+										<a href="#Home">INICIO</a>
+										<!--<ul class="sub-menu">
 											<li class="menu-item current-menu-item">
 												<a href="index.html">Homepage (Babysitter)</a>
 											</li>
@@ -72,28 +72,28 @@
 											<li class="menu-item">
 												<a href="index4.html">Homepage (Toy Store)</a>
 											</li>
-										</ul>
+										</ul>-->
 									</li>
 									<li class="menu-item menu-item-has-children">
-										<a href="index.html">VIDEOS Y CANCIONES</a>
+										<a href="#videos-y-canciones">VIDEOS Y CANCIONES</a>
 										<ul class="sub-menu">
 											<li class="menu-item">
-												<a href="headers-standard.html">Standard</a>
+												<a href="headers-standard.html">Youtube</a>
 											</li>
 											<li class="menu-item">
-												<a href="headers-transparent.html">Transparent</a>
+												<a href="headers-transparent.html">Spotify</a>
 											</li>
-											<li class="menu-item">
+											<!--<li class="menu-item">
 												<a href="headers-central-menu.html">Central menu</a>
 											</li>
 											<li class="menu-item">
 												<a href="headers-video.html">Video header</a>
-											</li>
+											</li>-->
 										</ul>
 									</li>
 									<li class="menu-item menu-item-has-children">
 										<a href="index.html">HISTORIA Y PERSONAJES</a>
-										<ul class="sub-menu">
+										<!--<ul class="sub-menu">
 											<li class="menu-item">
 												<a href="headers-standard.html">Mundo Dibujado</a>
 											</li>
@@ -109,7 +109,7 @@
 											<li class="menu-item">
 												<a href="headers-video.html">¿A quién conoceremos esta semana?</a>
 											</li>
-										</ul>
+										</ul>-->
 									</li>
 									<!--<li class="menu-item menu-item-has-children columns custom_view_item">
 										<a title="Tools and Pages" href="#">
@@ -184,9 +184,7 @@
 										</ul>
 									</li>-->
 									<li class="menu-item menu-item-has-children">
-										<a title="Layouts and hovers" href="#">
-											<span class="menu_icon icon-thumbs-up"></span>
-											CONTACTO
+										<a href="#Contact">CONTACTO</a>
 										</a>
 										</ul>
 									</li>
@@ -196,6 +194,8 @@
 					</div>
 				</div>
 			</header>
+
+			<section id="Home">
 
 			<div id="mainslider_1" class="sliderHomeBullets staticSlider slider_engine_revo slider_alias_revo-babbysitter mainslider_1">
 				<div id="rev_slider_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container">
@@ -354,28 +354,25 @@
 						</ul>
 					</div>
 				</div>
+			</section>
 			</div>
 
 			<section class="no_padding skyblue_section">
 				<div class="container">
-					<div class="">
-						<div class="sc_parallax dark" data-parallax-speed="0.3" data-parallax-x-pos="50%" data-parallax-y-pos="50%">
-							<div class="sc_parallax_content parallax_image_1">
-								<div class="sc_content main">
-									<div class="columnsWrap sc_columns sc_columns_count_2">
-										<div class="columns1_2 sc_column_item sc_column_item_1 odd first">
-										</div>
-										<div class="columns1_2 sc_column_item sc_column_item_2 even">
-											<h1 class="sc_title style_2 sc_title_regular font_ubuntu text_uppercase title_type_1">Descripción breve</h1>
-											<div class="text_md">
-												<p>"Juani y Nacho: Un Mundo Dibujado" es una experiencia única para niños y niñas, ideal para disfrutar en familia. A través de canciones animadas, contamos historias que fomentan la empatía, la creatividad y la imaginación, creando momentos especiales para todos.</p>
-											</div>
-											<!--<div class="sc_button sc_button_style_global sc_button_size_huge curveButton squareButton global huge">
-												<a href="#" class="">Purchase</a>
-											</div>
-											<div class="sc_button sc_button_style_global sc_button_size_huge curveButton right short squareButton global huge">
-												<a href="#" class="">More</a>
-											</div>-->
+					<div class="sc_parallax dark" data-parallax-speed="0.3" data-parallax-x-pos="50%" data-parallax-y-pos="50%">
+						<div class="sc_parallax_content parallax_image_1">
+							<div class="sc_content main">
+								<div class="columnsWrap sc_columns sc_columns_count_2">
+									<!-- Columna de la imagen -->
+									<div class="columns1_2 sc_column_item sc_column_item_1 odd first">
+										<img src="images/Mono.png" alt="Imagen descriptiva" class="responsive-image">
+									</div>
+									
+									<!-- Columna de texto -->
+									<div class="columns1_2 sc_column_item sc_column_item_2 even">
+										<h1 class="sc_title style_2 sc_title_regular font_ubuntu text_uppercase title_type_1">Descripción breve</h1>
+										<div class="text_md">
+											<p>"Juani y Nacho: Un Mundo Dibujado" es una experiencia única para niños y niñas, ideal para disfrutar en familia. A través de canciones animadas, contamos historias que fomentan la empatía, la creatividad y la imaginación, creando momentos especiales para todos.</p>
 										</div>
 									</div>
 								</div>
@@ -400,11 +397,16 @@
 															<div class="columns3_5 sc_column_item sc_column_item_1 odd first span_3">
 																<h3 class="sc_title sc_title_regular style_1 font_ubuntu title_type_2">¡Encontrá nuevos videos todas las semanas en el canal de YouTube!</h3>
 															</div>
-															<div class="sc_button sc_button_style_global sc_button_size_huge curveButton squareButton global huge">
-																<a href="#" class="">Youtube</a>
-															</div>
-															<div class="sc_button sc_button_style_global sc_button_size_huge curveButton right short squareButton global huge">
-																<a href="#" class="">Spotify</a>
+															<!-- Flexbox -->
+															<div class="button-container">
+																<!-- YouTube -->
+																<a href="https://www.youtube.com" target="_blank">
+																	<img src="images/YoutubeLogo.png" alt="Ir a YouTube" class="button-image">
+																</a>
+																<!-- Spotify -->
+																<a href="https://www.spotify.com" target="_blank">
+																	<img src="images/Spotify.png" alt="Ir a Spotify" class="button-image">
+																</a>
 															</div>
 														</div>
 													</div>
@@ -496,7 +498,7 @@
 											</div>
 										</div>
 
-										<section class="blue_section">
+										<section id="videos-y-canciones" class="blue_section">
 											<div class="container">
 											  <h2 class="sc_title sc_title_regular aligncenter">Lista de Videos</h2>
 											  <div id="videoGrid" class="grid"></div>
@@ -744,6 +746,7 @@
 
 			<div class="footerContentWrap">
 				<footer class="footerWrap footerStyleLight contactFooterWrap">
+				<section id="Contact">
 					<div class="main contactFooter">
 						<section>
 							<div class="logo">
@@ -834,6 +837,7 @@
 								</ul>
 							</div>-->
 						</section>
+					</section>
 					</div>
 				</footer>
 				<div class="upToScrollWrapper">
@@ -888,6 +892,8 @@
 	<script type='text/javascript' src='js/custom/_front.js'></script>
 
 	<!--<script type='text/javascript' src='custom_tools/js/_customizer.js'></script>-->
+	
+	<script type='text/javascript' src='js/Scroll.js'></script>
 
 </body>
 </html>
