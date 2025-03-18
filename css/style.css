@@ -62,7 +62,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, address, section, video, audio {
-	border: 0; font-family: inherit; font-size: 100%; font-style: inherit; font-weight: inherit; outline: 0; -webkit-font-smoothing: antialiased; -ms-word-wrap: break-word; word-wrap: break-word;
+	border: 0; font-family: inherit; font-size: 110%; font-style: inherit; font-weight: inherit; outline: 0; -webkit-font-smoothing: antialiased; -ms-word-wrap: break-word; word-wrap: break-word;
 }
 html,body { margin:0; padding:0; width:100%; height:100%;}
 html {
