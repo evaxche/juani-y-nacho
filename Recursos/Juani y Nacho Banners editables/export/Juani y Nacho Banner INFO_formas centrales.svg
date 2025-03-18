@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="1039.2594"
+   height="986.97125"
+   viewBox="0 0 1039.2594 986.97124"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath272">
+      <path
+         d="M 0,914.759 H 2638.452 V 0 H 0 Z"
+         transform="translate(-1207.5414,-818.97912)"
+         id="path272" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath274">
+      <path
+         d="M 0,914.759 H 2638.452 V 0 H 0 Z"
+         transform="translate(-1302.7503,-641.32672)"
+         id="path274" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath276">
+      <path
+         d="M 0,914.759 H 2638.452 V 0 H 0 Z"
+         transform="translate(-1331.5869,-270.31851)"
+         id="path276" />
+    </clipPath>
+  </defs>
+  <g
+     id="layer-MC3"
+     style="display:inline"
+     transform="translate(-1212.6721,-127.68869)">
+    <path
+       id="path271"
+       d="m 0,0 c -156.531,1.478 -287.225,-119.643 -296.916,-275.88 -0.542,-8.736 -0.889,-17.734 -1.025,-27.004 -2.577,-174.62 45.406,-293.266 283.916,-408.219 76.64,-36.938 165.556,-38.765 243.756,-5.254 l 34.987,14.993 c 65.77,28.184 119.077,79.309 149.874,143.898 51.113,107.197 105.474,276.699 28.375,413.349 -0.859,1.523 -23.773,25.319 -50.598,52.957 -54.825,56.487 -129.978,88.683 -208.693,89.426 z"
+       style="fill:#2d0956;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,1610.0552,127.70653)"
+       clip-path="url(#clipPath272)" />
+    <path
+       id="path273"
+       d="m 0,0 -242.946,-127.027 c 0,0 11.413,-144.09 105.983,-233.198 l 64.079,-38.876 c 66.622,-40.42 146.173,-39.649 212.206,2.056 l 112.785,71.233 84.254,266.17 -297.229,65.33 z"
+       style="fill:#3c0f68;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,1737.0003,364.5764)"
+       clip-path="url(#clipPath274)" />
+    <path
+       id="path275"
+       d="m 0,0 -176.095,66.357 -7.269,170.46 150.5,72.541 174.718,-76.16 24.458,-36.022 1.631,-127.027 z"
+       style="fill:#2d0956;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,1775.4491,859.254)"
+       clip-path="url(#clipPath276)" />
+  </g>
+</svg>

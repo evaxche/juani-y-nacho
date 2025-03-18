@@ -5082,6 +5082,18 @@ Animation
       display: block;
   }
 
+  .lapiz-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.texto-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
   .columnsWrap {
       display: flex;
       justify-content: space-between;
