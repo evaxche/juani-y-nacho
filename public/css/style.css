@@ -5134,3 +5134,7 @@ Animation
 .Music-title {
     color: #471659;
 }
+
+.line-break {
+    display: block;
+}

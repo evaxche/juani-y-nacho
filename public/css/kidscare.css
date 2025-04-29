@@ -2281,13 +2281,13 @@ div.facebook .pp_nav p {line-height: 1;}
 	height:670px;
 }
 
-
+/* subtexto banner */
 .mainslider_1 .tp-caption._bs_slider_text{
-font-size:16px;
+font-size:30px;
 	line-height:16px;
 	font-weight:600;
 	font-family:Ubuntu,sans-serif;
-	color:rgb(3,55,97);
+	color:rgb(255, 255, 255);
 	text-decoration:none;
 	text-shadow:none;
 	background-color:transparent;
