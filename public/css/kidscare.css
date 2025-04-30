@@ -2,21 +2,28 @@
 @import url(http://fonts.googleapis.com/css?family=Fredoka+One);
 @font-face {
     font-family: "Dosis";
-    src: url(fonts/Dosis-ExtraBold.otf);
+    src: url("fonts/Dosis-ExtraBold.otf");
 }
 @font-face {
     font-family: "Wobblezz";
-    src: url(fonts/Wobblezz-BF64c0bd4ad7637.otf);
+    src: local("fonts/Wobblezz.ttf");
 }
 
 @font-face {
     font-family: "Papernotes";
-    src: url(fonts/Papernotes\ Bold.ttf);
+    src: local("fonts/Papernotes.ttf");
 }
 
 @font-face {
     font-family: "BADABB";
-    src: url(public/fonts/BADABB.ttf);
+    src: local("fonts/BADABB.ttf");
+}
+
+@font-face {
+    font-family: "Jellee-Roman";
+    src: local("fonts/Jellee-Roman.otf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* Main skin for the theme
@@ -2392,7 +2399,7 @@ p.pd-sm {padding-bottom: 10px;}
 .green_opacity_section {background-color: rgba(112,188,79,0.7);}
 
 /* blue section */
-.blue_section {background-color: #1f5967;}
+.blue_section {background-color: #00c6c2;}
 
 /* lightblue section */
 .lightblue_section {background-color: #40a3b8;}
