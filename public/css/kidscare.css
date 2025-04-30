@@ -728,7 +728,7 @@ pre.code,
 .squareButton.curveButton > a:hover,
 .squareButton.curveButton > button,
 .squareButton.curveButton > button:hover,
-.squareButton.curveButton > span { font-family: 'Fredoka One', cursive; font-weight: 400; min-width: 114px; letter-spacing: -.91px; }
+.squareButton.curveButton > span { font-family: 'Dosis', cursive; font-weight: 400; min-width: 114px; letter-spacing: -.91px; }
 .squareButton.curveButton > a:after,
 .squareButton.curveButton > a:before,
 .squareButton.curveButton > button:after,
