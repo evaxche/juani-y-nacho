@@ -2437,10 +2437,10 @@ p.pd-sm {padding-bottom: 10px;}
 .parallax_image_2 {background-image:url(../images/fondo2.svg); background-position:50% 50%;}
 .parallax_image_2 .sc_content {margin-top:90px; margin-bottom:90px;}
 
-.parallax_image_3 {background-image:url(../images/1920x900.png); background-position:50% 50%;}
+.parallax_image_3 {background-image:url(../images/fondoCarlitos.svg); background-position:50% 50%;}
 .parallax_image_3 .sc_content {margin-top:90px;margin-bottom:0;}
 
-.parallax_image_4 {background-image:url(../images/852x396.png); background-position:50% 50%;}
+.parallax_image_4 {background-image:url(../images/fondoBruja.svg); background-position:50% 50%;}
 
 .parallax_image_5 {background-image:url(../images/1920x850.png); background-position:50% 50%;}
 .parallax_image_5 .sc_parallax_overlay {background-color:rgba(0,0,0,0.65);}
