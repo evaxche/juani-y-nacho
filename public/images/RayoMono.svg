@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="37.515991"
+   height="80.846664"
+   viewBox="0 0 37.515991 80.846665"
+   sodipodi:docname="Juani y Nacho Banners Editables VIDEOS Y MÚSICA.ai"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2433">
+      <path
+         d="M 120.256,413.981 C 87.141,397.554 62.871,361.891 56.09,334.057 v 0 c -6.583,-27.014 2.915,-42.471 20.225,-57.594 v 0 c 82.692,18.066 192.847,99.157 192.346,118.617 v 0 c -6.235,10.116 -11.579,15.337 -15.906,21.084 v 0 c -7.179,9.535 -26.529,18.11 -53.865,18.109 v 0 c -21.832,-0.001 -48.758,-5.471 -78.634,-20.292"
+         transform="translate(-172.68801,-380.42571)"
+         id="path2433" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="37.515991"
+       height="80.846664"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <g
+     id="layer-MC9"
+     inkscape:groupmode="layer"
+     inkscape:label="carlitos"
+     transform="translate(-220.57867,-86.569733)">
+    <path
+       id="path2432"
+       d="M 0,0 -7.254,-19.996 4.57,-17.652 -2.225,-52.445 20.883,-5.065 9.707,-6.652 18.779,8.19 Z"
+       style="fill:#f2dd63;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,230.25067,97.489733)"
+       clip-path="url(#clipPath2433)"
+       inkscape:export-filename="..\..\public\images\RayoMono.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+</svg>

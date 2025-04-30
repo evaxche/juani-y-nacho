@@ -14,6 +14,11 @@
     src: url(fonts/Papernotes\ Bold.ttf);
 }
 
+@font-face {
+    font-family: "BADABB";
+    src: url(public/fonts/BADABB.ttf);
+}
+
 /* Main skin for the theme
 ------------------------------------------------------------------------- */
 /* theme_skin_kidscare */
@@ -1102,10 +1107,10 @@ header.fixedTopMenu .topWrap .menuTopWrap.topMenuStyleLine > ul#mainmenu > li > 
 .upToScroll a.scrollToTop:before {content: ''; display: none;}
 .upToScroll a.scrollToTop {
 
-    background: transparent url("../images/object_3_main.png") no-repeat 50% 100%;
+    background: transparent url("../images/lapiz.svg") no-repeat 50% 100%;
     background-size: cover;
-    width: 146px;
-    height: 70px;
+    width: 60px;
+    height: 130px;
 
     animation-name: floating;
     -webkit-animation-name: floating;
@@ -1129,7 +1134,7 @@ header.fixedTopMenu .topWrap .menuTopWrap.topMenuStyleLine > ul#mainmenu > li > 
 .upToScroll a.scrollToTop:before {
     content: '';
     display: block;
-    background: transparent url("../images/object_3_addon.png") no-repeat 50% 100%; background-size: cover;
+    /*background: transparent url("../images/object_3_addon.png") no-repeat 50% 100%; background-size: cover;*/
     width: 52px; height: 14px;
 
     animation-name: spining;
@@ -1159,7 +1164,7 @@ header.fixedTopMenu .topWrap .menuTopWrap.topMenuStyleLine > ul#mainmenu > li > 
     display: block;
     margin-top: 8px;
     margin-left: 59px;
-    background: transparent url("../images/object_3_small.png") no-repeat 50% 100%; background-size: cover;
+    /*background: transparent url("../images/object_3_small.png") no-repeat 50% 100%; background-size: cover;*/
     width: 8px; height: 30px;
 
     animation-name: rotating;
@@ -2286,14 +2291,14 @@ div.facebook .pp_nav p {line-height: 1;}
 font-size:30px;
 	line-height:16px;
 	font-weight:600;
-	font-family:Ubuntu,sans-serif;
+	font-family:BADABB,sans-serif;
 	color:rgb(255, 255, 255);
 	text-decoration:none;
-	text-shadow:none;
 	background-color:transparent;
 	border-width:0px;
 	border-color:rgb(0,0,0);
 	border-style:none;
+    text-shadow: 2px 2px #000000;
 }
 .mainslider_1 .tp-caption._bs_slider_title{
 	font-size:36px;
@@ -2366,9 +2371,9 @@ font-size:30px;
 /*.mainslider_1 .rev_slider_wrapper {margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:633px;}*/
 /*.mainslider_1 .rev_slider {display:none;max-height:633px;height:633px;}*/
 .mainslider_1 li:nth-child(1){background-image:url(../images/fondo\ ver3.png); background-repeat: no-repeat; background-size: cover;}
-.mainslider_1 li:nth-child(2){background-image:url(../images/FondoSpotify.svg); background-repeat: no-repeat; background-size: cover;}
+.mainslider_1 li:nth-child(3){background-image:url(../images/FondoSpotify.svg); background-repeat: no-repeat; background-size: cover;}
 .mainslider_1 li:nth-child(4){background-image:url(../images/FondoIncognita.svg); background-repeat: no-repeat; background-size: cover;}
-.mainslider_1 li:nth-child(3){background-image:url(../images/FondoYoutube.svg); background-repeat: no-repeat; background-size: cover;}
+.mainslider_1 li:nth-child(2){background-image:url(../images/FondoYoutube.svg); background-repeat: no-repeat; background-size: cover;}
 
 
 /* Boxed view */
